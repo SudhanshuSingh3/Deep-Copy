@@ -22,6 +22,7 @@
 // console.log(obj,obj1);
 
 
+
 // method2
 
 // let obj={name:"john",
@@ -37,6 +38,12 @@
 // let clone = Object.defineProperties({}, Object.getOwnPropertyDescriptors(obj));
 // clone.age = 20
 // console.log(obj,clone);  
+    
+//method 4
+//let obj = {name:'John',age:18}
+//let clone = Object.create(Object.getPrototypeOf(obj), Object.getOwnPropertyDescriptors(obj));
+//clone.name='jack';
+//console.log(obj,clone); 
 </script>    
 </body>
 </html>
